@@ -65,11 +65,11 @@ MathTest::MathTest(int count) {
 
 }
 
-void MathTest::create_tasks(int min , int max, char op) {
-	for (int i = 0; i < _count ; i++) {
-		_tasks[i] = Task(min, max, op);
-	}
-}
+//void MathTest::create_tasks(int min , int max, char op) {
+//	for (int i = 0; i < _count ; i++) {
+//		_tasks[i] = Task(min, max, op);
+//	}
+//}
 
 
 MathTest::~MathTest() {
